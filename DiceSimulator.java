@@ -32,13 +32,11 @@ public class DiceSimulator extends JFrame implements ActionListener {
         statsLabel.setFont(new Font("Microsoft JhengHei", Font.PLAIN, 16));
         add(statsLabel, BorderLayout.NORTH);
 
-        // 中央：顯示骰子點數
         numberLabel = new JLabel("-", SwingConstants.CENTER);
         numberLabel.setFont(new Font("SansSerif", Font.BOLD, 60));
         numberLabel.setForeground(Color.BLACK);
         add(numberLabel, BorderLayout.CENTER);
 
-        // 下方：擲骰子按鈕
         rollButton = new JButton("擲骰子");
         rollButton.setFont(new Font("Microsoft JhengHei", Font.BOLD, 18));
         rollButton.setPreferredSize(new Dimension(100, 60));
